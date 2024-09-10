@@ -1,0 +1,425 @@
+
+* {
+    margin: 0;   
+    padding: 0;
+  }
+
+html {
+    background-color: #fff;
+}
+
+header {
+    background-color: #cfbece;
+    text-align: center;
+    height: 100px;
+  }
+
+body {
+    background-color: #eff4f7;
+    color: #3F2860;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+
+h1 {
+  line-height: 200%;
+  padding-top: 16px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav {
+  text-align: center;
+  height: 100px;
+  padding: 8px;
+}
+
+.nav{
+  display: inline-block;
+  padding: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #3F2860;
+}
+
+a:visited {
+  color: #3F2860;
+}
+
+a:hover {
+  color: #729479;
+}
+
+main {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 16px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color: #fff9e8;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+section > p {
+  text-align: center;
+}
+
+.service {
+  display: inline-block;
+  width: 47%;
+  background-color: white;
+
+  padding-top: 24px;
+  padding-right: 11px;
+  padding-bottom: 24px;
+  padding-left: 11px;
+
+  margin-top: auto;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: 5px;
+
+  text-align: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #B8195A;
+  color: white;
+  text-transform: uppercase;
+
+  padding-top: 6px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+
+  font-weight: 700;
+  font-size: 16px;
+  
+  border-width: 2px;
+  border-style: solid;
+  border-color: #B8195A;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+footer {
+  background-color: #573A56;
+  font-size: 0.7em;
+  text-align: center;
+  color: #fff9e8;
+  padding: 16px;
+  margin-top: 32px;
+}
+
+footer > a:link {
+  color: #fff9e8;
+}
+
+footer > a:hover {
+  color: #e8fff9;
+}
+
+.benefits-list{
+  list-style-type: square;
+  margin-left: 18px;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header > a {
+  display: none;
+}
+
+
+
+
+p.form {
+  font-size: small;
+}
+
+#form {
+  display: flex;
+}
+
+fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 100%;
+  border: 20px solid rgb(240, 240, 240);  
+  border-radius: 5px;
+}
+
+legend {
+  padding: 5px;
+  font-size: medium;
+  word-spacing: 4px;
+}
+
+
+input, textarea {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid rgb(150, 150, 150); 
+  border-radius: 5px;
+  background-color: white;
+}
+
+input:hover, textarea:hover {
+  background-color: rgb(200, 200, 200); 
+}
+
+
+label{
+  display: block;
+  width: 100%;
+  margin: 1%;
+}
+
+
+#submit {
+  margin-top: 2%;
+  margin-bottom: 2%; 
+  margin-left: 35%;
+  margin-right: 35%;
+  min-width: 150px;
+  padding: 5px;
+  border: 1px solid rgb(100, 100, 100);  
+  border-radius: 5px;
+  background-color: rgb(235, 150, 150); 
+  color: rgb(0, 0, 0); 
+}
+
+.active{
+  background-color: #bcc3b6;
+}
+
+
+
+
+
+.photo{
+  width: 210px;
+  height: 150px;
+  float: left;
+
+  padding: 3px;
+  border: 3px solid green;
+
+}
+
+
+.item-info  
+{
+  float: left;
+  width: 150px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.item-header
+{
+  color: green;
+}
+
+
+.day{
+  float: right;
+  display:inline;
+  padding-right: 30px;
+  color: green;
+}
+
+#section-center
+{
+  background-color: #eff4f7;
+}
+
+#album-view {
+  display: flex; 
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+#modal-view {
+  display: flex; 
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+img{
+  width: 33%;
+  height: 150px;
+}
+
+
+#modal-view > img{
+  width: 30%;
+  height: 150px;
+  border: 5px solid #c59d5f;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  header h1{
+    line-height: 50%;
+    display:inline-block;
+  }
+
+  header{
+    height: 55px;
+  }
+
+  .nav > a{
+    padding-left: 10%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-right: 75%;
+  }
+
+  #hamburger {
+    display: block;
+    float: right;
+    padding: 12px;
+    height: 55%;
+    background-color: #e1dbe1;
+  }
+
+  .nav {
+    display: block;
+    padding:10px;
+    width: 70%;
+    font-size: small;
+  }
+
+  #wrapper {
+    position: relative;
+  }
+
+  #mainNav {
+    position: absolute;
+    z-index: 1;
+    right: 30px;
+    top: 20px;
+  }
+
+  .mainNav {
+    height: 0px;
+    overflow: hidden;
+  }
+
+  .showNav {
+    height: 300px;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  .service{
+    width: 95%;
+  }
+
+  .nav > a:link {
+    color: #3F2860;
+    background-color: #ebe8eb;
+  }
+  
+  .nav > a:visited {
+    color: #3F2860;
+    background-color: #ebe8eb;
+  }
+  
+  .nav > a:hover {
+    color: #729479;
+    background-color: #f4f0f4;
+  }
+
+
+  .item .photo .item-header .day .item-text
+  {
+    display: inline-block;
+
+  }
+
+  .photo
+  {
+    width: 95%;
+    height: 95%;
+  }
+
+  .item-info
+  {
+    width: 95%;
+  }
+
+  #modal-view > img{
+    width: 29%;
+  }
+
+
+}
+
+/*
+
+open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
+ 
+Use this link to disable CORS
+
+*/
