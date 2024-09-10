@@ -1,0 +1,58 @@
+Lesson Data
+
+ID - 1
+title - Gentle Hatha Yoga
+category - yoga
+day - Monday
+img - images/yoga1.jpg
+desc - Gentle yoga is performed at a slower pace, with less intense positions, and usually includes extended time for meditation, yogic breath work, and relaxation.
+
+ID - 2
+title - Vinyasa Yoga
+category - yoga
+day - Tuesday
+img - images/yoga2.jpg"
+desc - Vinyasa is a style of yoga characterised by stringing postures together so that you move from one to another, seamlessly, using breath.
+
+ID - 3
+title -  Restorative Yoga 
+category - yoga
+day - Friday
+img - images/yoga3.jpg
+desc - Restorative yoga is a restful practice that is all about slowing down and opening your body through passive stretching
+
+ID - 4
+title -  Iyengar Yoga 
+category - yoga
+day - Thursday
+img - images/yoga4.jpg
+desc - Iyengar Yoga is a form of yoga as exercise that has an emphasis on detail, precision and alignment in the performance of yoga postures
+
+ID - 5
+title -  Reformer Pilates
+category - pilates
+day - Friday
+img - images/pilate1.jpg
+desc - Pilates exercises done with some special types of machines are known as reformer Pilates.
+
+
+ID - 6
+title - Clinical Pilate
+category - pilates
+day - Saturday
+img - images/pilate2.jpg
+desc - Clinical Pilates is a therapeutic exercise offered by some qualified physiotherapists as a part of treatment for various injuries and health conditions.
+
+ID - 7
+title - Classical Pilates
+category - pilates
+day - Sunday
+img - images/pilate3.jpg 
+desc - Classic Pilates is the original form of Pilates that is based on a sequence of exercises
+
+ID - 8
+title -  Winsor Pilates
+category - pilates
+day - Monday
+img - images/yoga5.jpg
+desc - Developed by Mari Winsor, Winsor Pilates emphasizes breathing coordination and targets the “band of energy

@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="yoga.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mimo Yoga Studio</title>
+        <script src="https://kit.fontawesome.com/d50f420e8b.js" crossorigin="anonymous"></script>
+        <script src = "hamburger.js"defer></script>
+        <script src="form.js" defer></script>
+
+    </head>
+
+    <body>
+    <div id ="wrapper">
+
+    <header>
+        <h1>Mimo Yoga Studio</h1>
+        <a id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </header>
+    
+    <nav id = "mainNav">
+        <ul class = "mainNav">
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="classes.html">Classes</a></li>
+            <li class="nav"><a href="schedule.html">Schedule</a></li>
+            <li class="nav active"><a href="contact.html">Contact</a></li>
+            <li class="nav"><a href="hello.html">Hello</a></li>
+
+    </nav>
+
+    <main>
+        <h3>Contact Mimo Yoga Studio</h3>
+
+        <div>
+
+            <p class = "form">required information is marked with an asterisk (*)</p>
+            <form method="POST" action="" id="form">
+
+                <fieldset>
+                    <legend>Contact form  <i class="fa-solid fa-comment"></i> </legend> 
+
+                    <label for="name">Name*:</label>
+                    <input type="text" id="name" name="name" required aria-required="true"> 
+
+                    <label for="email">Email*:  <i class="fa-solid fa-envelope"></i> </label>
+                    <input type="email" id="email" name="email" required aria-required="true"> 
+
+                    <label for="message">Message*:</label>
+                    <textarea id="message" name="message" rows = "8" cols = "60" required aria-required="true"></textarea> 
+                
+                    <button id = "submit">Send now  <i class="fa-solid fa-forward"></i></button>
+                       
+                </fieldset>
+            </form>
+
+        </div>
+        <div id="post-response"></div>
+
+    </main>
+
+    <footer>
+        <p>Copyright ©2022 Mimo Yoga Studio</p>
+        <a href="mailto:markfake@example.com">Mark P</a>
+    
+    </footer>
+    
+    </div>
+    </body>
+</html>
